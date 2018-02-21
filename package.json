@@ -1,0 +1,15 @@
+{
+  "name": "symbol2svgs",
+  "version": "1.0.0",
+  "description": "Convert svg sprite to svgs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krisdigital",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "command-line-args": "^5.0.2"
+  }
+}
