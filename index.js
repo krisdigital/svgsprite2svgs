@@ -26,7 +26,7 @@ const path = require('path')
 
 $(svgSymbols).find('symbol').each(function(index, symbol) {
   const $symbol = $(symbol)
-  const symbolTitle = $symbol.find('title').html()
+  const symbolTitle = $symbol.find('title').html() || $symbol.attr('id')
   const title = symbolTitle ? `${symbolTitle}.svg` : `svg_${index}.svg`
   const svg = `<svg viewBox="${$symbol.attr('viewBox')}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">${$symbol.html()}</svg>`
   fs.writeFileSync(path.join(options.outputDir, title), svg)

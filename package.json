@@ -9,7 +9,7 @@
   "author": "Krisdigital",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "command-line-args": "^5.0.2"
+    "cheerio": "^1.0.0-rc.5",
+    "command-line-args": "^5.1.1"
   }
 }
